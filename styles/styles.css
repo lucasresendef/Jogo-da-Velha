@@ -1,0 +1,179 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;      
+}
+.game {
+    width: 98%;
+    text-align: center;
+}
+h1{
+    font: bold 20pt Poppins;
+    color: #3066acce;
+}
+.players{
+    display:flex;
+    justify-content: center;
+    height: 3.5rem;
+    font: bold 20pt Poppins;
+    margin-bottom:1%;
+
+}
+#playerX{
+    width: 200px;
+    height: 100%;
+    border: 5px solid #3066ac7c;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.835);
+    background-color: #87ceeb;
+}
+#playerO{
+    width: 200px;
+    height: 100%;
+    border: 5px solid #3066ac7c;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.835);
+}
+#gamer{
+    font: bold 15pt Poppins;
+    color: #3066acce;
+}
+.container{
+    height: 75%;
+    background-color: #87ceeb;
+    border-radius: 1rem;
+    margin-top: 1%;
+    margin-bottom: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.colunaum{
+    border-right: 15px solid #3066ac86;
+    width: 12rem;
+    font: 6rem Archivo;
+}
+#casaumum{
+    border-bottom: 15px solid #3066ac86;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#casadoisum{
+    border-bottom: 15px solid #3066ac86;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#casatresum{
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colunadois{
+    width: 12rem;
+    font: 6rem Archivo;
+}
+#casaumdois{
+    border-bottom: 15px solid #3066ac86;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#casadoisdois{
+    border-bottom: 15px solid #3066ac86;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#casatresdois{
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colunatres{
+    border-left: 15px solid #3066ac86;
+    width: 12rem;
+    font: 6rem Archivo;
+}
+#casaumtres{
+    border-bottom: 15px solid #3066ac86;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#casadoistres{
+    border-bottom: 15px solid #3066ac86;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#casatrestres{
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+   cursor: pointer;
+   text-decoration: none;
+   font: bold 20pt Poppins;
+   border: 5px solid  #3066ac7c;
+   border-radius: 1rem;
+   color: #3066acce;
+}
+@media (max-width: 600px){
+    .colunaum{
+        width: 8rem;
+    }
+    #casaumum{
+        height: 8rem;;
+    }
+    #casadoisum{
+        height: 8rem;
+    }
+    #casatresum{
+        height: 8rem;
+    }
+    .colunadois{
+        width: 8rem;
+    }
+    #casaumdois{
+        height: 8rem;
+    }
+    #casadoisdois{
+        height: 8rem;
+    }
+    #casatresdois{
+        height: 8rem;
+    }
+    .colunatres{
+        width: 8rem;
+    }
+    #casaumtres{
+        height: 8rem;
+    }
+    #casadoistres{
+        height: 8rem;
+    }
+    #casatrestres{
+        height: 8rem;
+    }
+    
+}

@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;      
+}
+.game {
+    width: 98%;
+    text-align: center;
+}
+h1{
+    font: bold 20pt Poppins;
+    color: #3066acce;
+}
+.players{
+    display:flex;
+    justify-content: center;
+    height: 3.5rem;
+    font: bold 20pt Poppins;
+    margin-bottom:1%;
+
+}
+#playerX{
+    width: 200px;
+    height: 100%;
+    border: 5px solid #3066ac7c;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.835);
+    background-color: #87ceeb;
+}
+#playerO{
+    width: 200px;
+    height: 100%;
+    border: 5px solid #3066ac7c;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.835);
+}
+#gamer{
+    font: bold 15pt Poppins;
+    color: #3066acce;
+}
+.container{
+    height: 170%;
+    background-color: #87ceeb;
+    border-radius: 1rem;
+    margin-top: 1%;
+    margin-bottom: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 60pt Poppins;
+}
+#won{
+    color: #3066acce;
+    margin-left: 2rem;
+}
+#playerwin{
+    color: #FFFFFF;
+}
+
+.footer{
+   cursor: pointer;
+   font: bold 20pt Poppins;
+   border: 5px solid  #3066ac7c;
+   border-radius: 1rem;
+   color: #3066acce;
+}
+
